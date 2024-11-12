@@ -6,6 +6,8 @@ I decided to use different pics of women in some of my favorite sports, with an 
 
 I started with the Bootstrap grid system to create a responsive design to adapt to different sceen sizes.
 
+screen starts at desktop 400 x 700 and reduces to iphone size of 312 x 812
+
 Each image is given classes img-fluid, rounded and shadow- it should scale properly and I was trying to give it some sort of visually appealing style.
 
 I wrapped it in a div with the class container, (I took the easy way out) to center it on large screens.
