@@ -1,17 +1,26 @@
-/* Center images within carousel slides */
-.carousel-item img {
-    object-fit: cover;
-    height: 90vh;
-    width: 100%;
-}
 
-/* Style for carousel controls */
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-/* Adjust spacing between rows */
-.row {
-    margin-bottom: 20px;
-}
+    
+        .carousel-item img {
+            object-fit: cover;
+            height: 90vh;
+            width: 100%;
+        }
+        
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        
+        .row {
+            margin-bottom: 20px;
+        }
+        
+        .banner {
+            background-image: linear-gradient(to right, #3498db, #2980b9);
+            min-height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+    
