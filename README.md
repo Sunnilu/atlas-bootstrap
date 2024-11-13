@@ -1,5 +1,7 @@
 My First Bootstrap, ALL BY MYSELL!
 
+https://github.com/Sunnilu/atlas-bootstrap.git
+
 So what is this project about?  Well something that I spend a lot of time doing outside of school- sports!
 
 I decided to use different pics of women in some of my favorite sports, with an emphasis on black women in sports.  I should have put golf in and bowling the two main sports that I participate in but anyway you get the point.
