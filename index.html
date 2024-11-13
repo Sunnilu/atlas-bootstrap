@@ -3,48 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>This is Us</title>
+    <title>Women in Sports Carousel</title>
+    
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     
-    <nav class="navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#">This is Us</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-            </ul>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Women in Sports</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
-    <style>
-    </style>
-</head>
-<body>
-   <!-- Banner -->
-<div class="bg-success bg-gradient p-5 text-white text-center">
-    <h2 class="font-weight-bold d-none d-sm-block d-lg-block">We Rise</h2>
-</div>
-
-    </div>
+    <!-- Banner -->
+    <section class="banner">
+        <h1 class="display-4 text-white text-center py-5">Celebrating Women in Sports</h1>
+    </section>
 
     <!-- About Section -->
-    <section id="about" class="mt-5">
+    <section id="about" class="py-5">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8">
-                    <h2 class="mb-4">About Us</h2>
-                    <p class="lead">We are strong determined black women, destined to do great things!</p>
+            <h2 class="mb-4 text-center">About Us</h2>
+            <p class="lead text-muted text-center mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Our Mission</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Our Vision</h3>
+                    <p>Cras mattis consectetur purus sit amet fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur.</p>
                 </div>
             </div>
         </div>
@@ -55,33 +64,22 @@
         <ol class="carousel-indicators">
             <li data-target="#womenInSportsCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#womenInSportsCarousel" data-slide-to="1"></li>
+            <li data-target="#womenInSportsCarousel" data-slide-to="2"></li>
         </ol>
 
         <div class="carousel-inner">
             <!-- First slide -->
             <div class="carousel-item active">
-                <div class="container">
-                    <div class="row mt-5 mb-5">
-                        <div class="col-md-6 col-lg-4 mb-4">
-                            <img src="/Users/sunthalucas/Downloads/jeffrey-f-lin-te2XWnImJIw-unsplash.jpg" alt="Woman playing soccer" class="img-fluid rounded shadow w-100">
+                <div class="container-fluid">
+                    <div class="row align-items-center" style="height: 100vh">
+                        <div class="col-md-4">
+                            <img src="/Users/sunthalucas/Downloads/image000000.jpg" alt="Image 1" class="img-fluid">
                         </div>
-                        <div class="col-md-6 col-lg-4 mb-4">
-                            <img src="/Users/sunthalucas/Downloads/jadon-johnson-kcL9enWRCy0-unsplash.jpg" alt="Woman running track" class="img-fluid rounded shadow w-100">
+                        <div class="col-md-4">
+                            <img src="/Users/sunthalucas/Downloads/jeffrey-f-lin-te2XWnImJIw-unsplash.jpg" alt="Image 2" class="img-fluid">
                         </div>
-                        <div class="col-md-6 col-lg-4 mb-4">
-                            <img src="/Users/sunthalucas/Downloads/library-of-congress-szWuTk6C4ik-unsplash.jpg" alt="Woman playing tennis" class="img-fluid rounded shadow w-100">
-                        </div>
-                    </div>
-
-                    <div class="row mt-5 mb-5">
-                        <div class="col-md-6 col-lg-4 mb-4">
-                            <img src="/Users/sunthalucas/Downloads/jernej-graj-rlNibgIqi4o-unsplash.jpg" alt="Woman swimming" class="img-fluid rounded shadow w-100">
-                        </div>
-                        <div class="col-md-6 col-lg-4 mb-4">
-                            <img src="/Users/sunthalucas/Downloads/mike-von-_DS5mXLZxWE-unsplash.jpg" alt="Woman sitting on rock" class="img-fluid rounded shadow w-100">
-                        </div>
-                        <div class="col-md-6 col-lg-4 mb-4">
-                            <img src="/Users/sunthalucas/Downloads/rinald-rolle-CxLnrerxO7w-unsplash (1).jpg" alt="Woman football" class="img-fluid rounded shadow w-100">
+                        <div class="col-md-4">
+                            <img src="/Users/sunthalucas/Downloads/jadon-johnson-kcL9enWRCy0-unsplash.jpg" alt="Image 3" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -89,28 +87,33 @@
 
             <!-- Second slide -->
             <div class="carousel-item">
-                <div class="container">
-                    <div class="row mt-5 mb-5">
-                        <div class="col-md-6 col-lg-4 mb-4">
-                            <img src="/Users/sunthalucas/Downloads/sunday-ii-sunday-6vZYXHx9gmw-unsplash.jpg" alt="Woman working out" class="img-fluid rounded shadow w-100">
+                <div class="container-fluid">
+                    <div class="row align-items-center" style="height: 100vh">
+                        <div class="col-md-4">
+                            <img src="/Users/sunthalucas/Downloads/library-of-congress-szWuTk6C4ik-unsplash.jpg" alt="Image 4" class="img-fluid">
                         </div>
-                        <div class="col-md-6 col-lg-4 mb-4">
-                            <img src="/Users/sunthalucas/Downloads/sai-de-silva-cykFL7IQCTk-unsplash.jpg" alt="Woman and daughter" class="img-fluid rounded shadow w-100">
+                        <div class="col-md-4">
+                            <img src="/Users/sunthalucas/Downloads/jernej-graj-rlNibgIqi4o-unsplash.jpg" alt="Image 5" class="img-fluid">
                         </div>
-                        <div class="col-md-6 col-lg-4 mb-4">
-                            <img src="/Users/sunthalucas/Downloads/madison-lavern-4gcqRf3-f2I-unsplash.jpg" alt="Woman yoga pose" class="img-fluid rounded shadow w-100">
+                        <div class="col-md-4">
+                            <img src="/Users/sunthalucas/Downloads/mike-von-_DS5mXLZxWE-unsplash.jpg" alt="Image 6" class="img-fluid">
                         </div>
                     </div>
+                </div>
+            </div>
 
-                    <div class="row mt-5 mb-5">
-                        <div class="col-md-6 col-lg-4 mb-4">
-                            <img src="/Users/sunthalucas/Downloads/madison-lavern-CDJCAcAAPlU-unsplash.jpg" alt="Woman pose" class="img-fluid rounded shadow w-100">
+            <!-- Third slide -->
+            <div class="carousel-item">
+                <div class="container-fluid">
+                    <div class="row align-items-center" style="height: 100vh">
+                        <div class="col-md-4">
+                            <img src="/Users/sunthalucas/Downloads/rinald-rolle-CxLnrerxO7w-unsplash (1).jpg" alt="Image 7" class="img-fluid">
                         </div>
-                        <div class="col-md-6 col-lg-4 mb-4">
-                            <img src="/Users/sunthalucas/Downloads/christina-wocintechchat-com-UcZcsHSp8o4-unsplash.jpg" alt="Woman office" class="img-fluid rounded shadow w-100">
+                        <div class="col-md-4">
+                            <img src="/Users/sunthalucas/Downloads/sunday-ii-sunday-6vZYXHx9gmw-unsplash.jpg" alt="Image 8" class="img-fluid">
                         </div>
-                        <div class="col-md-6 col-lg-4 mb-4">
-                            <img src="/Users/sunthalucas/Downloads/boxed-water-is-better-y-TpYAlcBYM-unsplash.jpg" alt="Woman stretching" class="img-fluid rounded shadow w-100">
+                        <div class="col-md-4">
+                            <img src="/Users/sunthalucas/Downloads/sai-de-silva-cykFL7IQCTk-unsplash.jpg" alt="Image 9" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -128,6 +131,12 @@
         </a>
     </div>
 
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center p-4 mt-5">
+        <p>&copy; 2023 Women in Sports. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JavaScript -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
