@@ -6,7 +6,7 @@ I decided to use different pics of women in some of my favorite sports, with an 
 
 I started with the Bootstrap grid system to create a responsive design to adapt to different sceen sizes.
 
-screen starts at desktop 400 x 700 and reduces to iphone size of 312 x 812
+I struggled with getting my images centered to where you could see the entire image as the screen size changed, but this HTML relies mainly on Bootstrap classes.
 
 Each image is given classes img-fluid, rounded and shadow- it should scale properly and I was trying to give it some sort of visually appealing style.
 
@@ -24,3 +24,4 @@ I added the CDN which is said to be used for easy integration.
 
 from looking at videos, it suggested that I use high quality images.  Theres something called lazy loading also for pages with many images, which improves initial page load time.
 
+I do have some non-Bootstrap elements.  I have a custom CSS file which extends or modifies Bootstraps default styles.  I also incorporated JQuery along side of Bootstrap, Popper.js is also included.
