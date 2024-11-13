@@ -15,7 +15,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="#"> Black Women in Sports</a>
+            <a class="navbar-brand" href="#">Black Women in Sports</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -45,16 +45,30 @@
     <section id="about" class="py-5">
         <div class="container">
             <h2 class="mb-4 text-center">About Us</h2>
-            <p class="lead text-muted text-center mb-5">This is who we are, we rise for the occasion, we are mothers, daughters, athletes, providers.  We Rise in and out of a storm.</p>
+            <p class="lead text-muted text-center mb-5">This is who we are, we rise for the occasion, we are mothers, daughters, athletes, providers. We Rise in and out of a storm.</p>
+            
+            <!-- Main Content -->
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 order-md-12 mb-4 mb-md-0">
                     <h3>Our Mission</h3>
-                    <p>To keep our families strong as we nurture each other along the way. To be recognized in the community as leaders, providers, God fearing women that can weather a storm. </p>
+                    <p>To keep our families strong as we nuture each other along the way. To be recognized in the community as leaders, providers, God fearing women that can weather a storm.</p>
                 </div>
-                <div class="col-md-6">
-                    <h3>Our Vision</h3>
-                    <p>To ensure that those that have gone before us are not forgotten and we strive to do better, be better, We Are Better.</p>
-                </div>
+                
+                <aside class="col-md-4 order-md-6">
+                    <h3>Quick Facts & Category Selection</h3>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Select Category</span>
+                        </div>
+                        <select class="custom-select form-control" id="categoryDropdown">
+                            <option value="sports">Sports</option>
+                            <option value="fitness">Fitness</option>
+                            <option value="health">Health</option>
+                        </select>
+                    </div>
+                    
+                    <p class="lead text-muted mt-3">Select an option to view related content.</p>
+                </aside>
             </div>
         </div>
     </section>
@@ -120,14 +134,6 @@
             </div>
         </div>
 
-         <!-- Responsive Content Section -->
-         <div class="row mt-5">
-            <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 d-none d-sm-block">
-            </div>
-            
-            <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 d-block d-sm-none">
-            </div
-
         <!-- Carousel controls -->
         <a class="carousel-control-prev" href="#womenInSportsCarousel" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -138,6 +144,43 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+
+    <!-- Responsive Content Section -->
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="/Users/sunthalucas/Downloads/leighann-blackwood-hx87JWG4yCI-unsplash.jpg" class="card-img-top" alt="Card image">
+                    <div class="card-body">
+                        <h5 class="card-title">Empowerment</h5>
+                        <p class="card-text">We empower Black women in sports by sharing inspiring stories and experiences.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="/Users/sunthalucas/Downloads/clark-tibbs-oqStl2L5oxI-unsplash.jpg" class="card-img-top" alt="Card image">
+                    <div class="card-body">
+                        <h5 class="card-title">Mentorship</h5>
+                        <p class="card-text">Our mentorship programs help guide the next generation of female athletes.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="/Users/sunthalucas/Downloads/desola-lanre-ologun-IgUR1iX0mqM-unsplash.jpg" class="card-img-top" alt="Card image">
+                    <div class="card-body">
+                        <h5 class="card-title">Community</h5>
+                        <p class="card-text">Join a supportive network that celebrates Black women in sports.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <footer class="bg-dark text-white text-center p-4 mt-5">
         <p>&copy; 2023 Women in Sports. All rights reserved.</p>
     </footer>
@@ -148,6 +191,5 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
-
 
 
