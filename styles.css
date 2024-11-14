@@ -15,12 +15,5 @@
             margin-bottom: 20px;
         }
         
-        .banner {
-            background-image: linear-gradient(to right, #3498db, #2980b9);
-            min-height: 300px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
-        }
+
     
