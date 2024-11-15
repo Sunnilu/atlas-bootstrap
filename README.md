@@ -6,6 +6,16 @@ So what is this project about?  Well something that I spend a lot of time doing 
 
 I decided to use different pics of women in some of my favorite sports, with an emphasis on black women in sports.  I should have put golf in and bowling the two main sports that I participate in but anyway you get the point.
 
+* nav bar is in the body with 3 links to a page section with the hover and active.
+
+* banner section- self expandable
+
+* carousel is on all screen sizes with arrows each card has an image and text
+
+* Drop down is visible at the top before images
+
+*  the <aside> is in my Women Sports that has a background of green.
+
 I started with the Bootstrap grid system to create a responsive design to adapt to different sceen sizes.
 
 I struggled with getting my images centered to where you could see the entire image as the screen size changed, but this HTML relies mainly on Bootstrap classes.
